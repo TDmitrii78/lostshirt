@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    background-color: #fcf5e6;
 }
 
 h1, ul, li {
@@ -30,3 +31,4 @@ h1, ul, li {
 @import './blocks/promo';
 @import './blocks/products';
 @import './blocks/btn';
+@import './blocks/collections';

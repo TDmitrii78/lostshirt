@@ -1,0 +1,36 @@
+.collections {
+    padding-top: 180px;
+    &__list {
+        display: grid;
+        grid-template-columns: 630px 630px;
+        grid-template-rows: 470px;
+        gap: 30px;
+    }
+    &__item {
+        position: relative;
+        overflow: hidden;
+        padding: 80px 80px 80px 280px;
+        background-image: url('../img/pattern/pattern.png');
+        background-position: center;
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__title {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 700;
+        font-size: 70px;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+    &__img {
+        position: absolute;
+        left: -27%;
+        top: -43%;
+        transform: scale(0.8);
+    }
+    &__btn {
+        margin-top: 20px;
+    }
+}
