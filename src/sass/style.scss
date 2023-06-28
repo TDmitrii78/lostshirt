@@ -1,0 +1,32 @@
+@import './libs/bootstrap-reboot.min';
+@import './base/variable';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yanone+Kaffeesatz:wght@700&display=swap');
+@font-face {
+    font-family: 'alegreya_sans_scblack';
+    src: url('./../fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+         url('./../fonts/alegreyasanssc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+@import './blocks/promo';
+@import './blocks/products';
+@import './blocks/btn';
