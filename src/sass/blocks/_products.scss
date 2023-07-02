@@ -10,10 +10,12 @@
     text-transform: uppercase;
     &__item {
         &-link {
+            display: block;
+            transition: all 0.3s;
             text-decoration: none;
             color: $blackb1b1b1-color;
             &_active {
-                padding: 3px 24px;
+                padding: 2px 24px;
                 background-color: $blackb1b1b1-color;
                 color: $base-color;
             }
