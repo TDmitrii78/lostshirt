@@ -14,8 +14,8 @@
             transition: all 0.3s;
             text-decoration: none;
             color: $blackb1b1b1-color;
+            padding: 2px 24px;
             &_active {
-                padding: 2px 24px;
                 background-color: $blackb1b1b1-color;
                 color: $base-color;
             }
