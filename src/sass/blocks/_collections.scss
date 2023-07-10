@@ -2,6 +2,7 @@
     padding-top: 180px;
     &__list {
         display: grid;
+        justify-content: center;
         grid-template-columns: 630px 630px;
         grid-template-rows: 470px;
         gap: 30px;
